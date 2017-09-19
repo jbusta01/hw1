@@ -1,0 +1,23 @@
+
+
+
+body{
+	background: #3D7EAA;
+	background: -webkit-linear-gradient(left, #3D7EAA , #FFE47A);
+}
+
+
+h1 {
+	text-align: center;
+	font-family: Helvetica, Arial;
+	font-size: 40px;
+}
+
+
+img {
+	border-radius: 50%;
+	margin: auto;
+	display: block;
+	width: 50%;
+
+}
