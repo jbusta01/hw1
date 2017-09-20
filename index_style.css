@@ -1,22 +1,76 @@
 
-
+/*
+ This is the style sheet for the index website
+ it contains the description related to layout 
+ for the HTML file called index
+*/
 
 body{
 	background: #3D7EAA;
-	background: -webkit-linear-gradient(left, #3D7EAA , #FFE47A);
+	background: -webkit-linear-gradient(left, #3D7EAA, #FFE47A);
+	background: white;
 }
 
 
 h1 {
 	text-align: center;
 	font-family: Helvetica, Arial;
-	font-size: 40px;
+	font-size: 50px;
+	border-style: solid;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h2 {
+
+}
+
+/*
+Styling for the dropdown button 
+
+*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C1C6C8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 
 img {
+	box-shadow: 5px 5px 5px grey;
 	border-radius: 50%;
 	margin: auto;
+	height: auto;
 	display: block;
 	width: 50%;
 
