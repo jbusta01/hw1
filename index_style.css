@@ -7,7 +7,6 @@
 
 body{
 	background: #3D7EAA;
-	background: -webkit-linear-gradient(left, #3D7EAA, #FFE47A);
 	background: white;
 }
 
@@ -23,11 +22,23 @@ h1 {
 
 h2 {
 
+	font-family: Helvetica, Arial;
+	margin-left: 3%;
+	margin-right: 3%;
+
 }
 
 /*
 Styling for the dropdown button 
+positioning dropdown bottom
+*/
+div {
+	margin-left: 3%;
+	margin-right: 3%;
+}
 
+/*
+Styling the first block of dropdown
 */
 .dropbtn {
     background-color: #4CAF50;
@@ -36,18 +47,18 @@ Styling for the dropdown button
     font-size: 16px;
     border: none;
     cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-    box-shadow: 5px 5px 5px grey;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #C1C6C8;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -59,15 +70,17 @@ Styling for the dropdown button
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #C1C6C8 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
+/* setting the image style
+*/
 
 img {
-	box-shadow: 5px 5px 5px grey;
+	box-shadow: 5px 2px 10px grey;
 	border-radius: 50%;
 	margin: auto;
 	height: auto;
