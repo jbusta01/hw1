@@ -2,13 +2,11 @@
 
 body {
 	background-image: url("back.jpg");
-	backface-visibility: 50%;
 
 }
 h1{
 	font-family: Helvetica, Arial;
 	font-size: 40px;
-	text-decoration: 
 }
 
 p {
@@ -31,7 +29,6 @@ h2 {
 
 a.button {
 	float: left;
-	shape-margin: 5%;
     background-color: #4CAF50;
     color: white;
 	padding: 15px;
