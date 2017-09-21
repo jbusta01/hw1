@@ -1,0 +1,42 @@
+
+
+body {
+	background-image: url("back.jpg");
+	backface-visibility: 50%;
+
+}
+h1{
+	font-family: Helvetica, Arial;
+	font-size: 40px;
+	text-decoration: 
+}
+
+p {
+	font-family: Helvetica, Arial;
+	text-align: justify;
+	margin-right: 5%;
+	margin-left: 2%
+	text-indent: 50px;
+}
+
+
+a.button {
+	float: left;
+	shape-margin: 5%;
+    background-color: #4CAF50;
+    color: white;
+	padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
+    text-decoration: none;
+}
+
+h2 {
+
+	font-family: Helvetica, Arial;
+	margin-right: 5%;
+	margin-left: 2%
+
+}
