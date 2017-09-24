@@ -9,6 +9,10 @@ h1{
 	font-size: 40px;
 }
 
+h2{
+	border-style: none none solid none;
+}
+
 p {
 	font-family: Helvetica, Arial;
 	text-align: justify;
