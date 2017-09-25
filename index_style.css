@@ -8,11 +8,13 @@
 body{
 	background: #3D7EAA;
 	background: white;
+
 }
 
 
 h1 {
-	text-align: center;
+ 	display: flex;
+	justify-content: center;
 	font-family: Helvetica, Arial;
 	font-size: 50px;
 	border-style: solid;
@@ -21,7 +23,7 @@ h1 {
 }
 
 h2 {
-
+	display: flex;
 	font-family: Helvetica, Arial;
 	margin-left: 3%;
 	margin-right: 3%;
@@ -34,8 +36,10 @@ Styling for the dropdown button
 positioning dropdown bottom
 */
 div {
+    display: flex;
 	margin-left: 3%;
 	margin-right: 3%;
+
 }
 
 /*
@@ -54,6 +58,7 @@ Styling the first block of dropdown
 .dropdown {
     position: relative;
     display: inline-block;
+    display: flex;
 }
 
 .dropdown-content {
@@ -87,5 +92,6 @@ img {
 	height: auto;
 	display: block;
 	width: 50%;
+	display: flex;
 
 }
