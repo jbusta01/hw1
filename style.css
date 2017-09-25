@@ -11,10 +11,6 @@ h1{
 	justify-content: center;
 }
 
-h2{
-	border-style: none none solid none;
-	display: flex;
-}
 
 p {
 	font-family: Helvetica, Arial;
@@ -24,13 +20,13 @@ p {
 	margin-right: 2%;
 	margin-left: 2%;
 	display: flex;
-	justify-content: justify;
 	align-self: flex-end;
 	
 }
 
 h2 {
-
+    border-style: none none solid none;
+	display: flex;
 	font-family: Helvetica, Arial;
 	margin-right: 2%;
 	margin-left: 2%;
@@ -38,7 +34,19 @@ h2 {
 
 }
 
+h3 {
+	display: flex;
+	font-family: Helvetica, Arial;
+	margin-right: 2%;
+	margin-left: 2%;
+}
 
+h4 {
+	margin-right: 2%;
+	margin-left: 2%;
+	display: flex;
+	font-family: Helvetica, Arial;
+}
 a.button {
 	float: left;
     background-color: #4CAF50;
