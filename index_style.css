@@ -58,7 +58,7 @@ Styling the first block of dropdown
 .dropdown {
     position: relative;
     display: inline-block;
-    display: flex;
+   
 }
 
 .dropdown-content {

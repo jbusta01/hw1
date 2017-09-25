@@ -7,10 +7,13 @@ body {
 h1{
 	font-family: Helvetica, Arial;
 	font-size: 40px;
+	display: flex;
+	justify-content: center;
 }
 
 h2{
 	border-style: none none solid none;
+	display: flex;
 }
 
 p {
@@ -19,7 +22,10 @@ p {
 	font-size: 16px;
 	text-indent: 50px;
 	margin-right: 2%;
-	margin-left: 2%
+	margin-left: 2%;
+	display: flex;
+	justify-content: justify;
+	align-self: flex-end;
 	
 }
 
@@ -27,9 +33,11 @@ h2 {
 
 	font-family: Helvetica, Arial;
 	margin-right: 2%;
-	margin-left: 2%
+	margin-left: 2%;
+	display: flex;
 
 }
+
 
 a.button {
 	float: left;
